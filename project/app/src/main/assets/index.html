@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+    <title>Example</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width,height=device-height, user-scalable=no" />
+    <script type="text/javascript">
+        var myMap;
+        ymaps.ready(function () {
+            myMap = new ymaps.Map('map', {
+                center: [55.755381, 37.619044],
+                zoom: 14,
+                type: 'yandex#satellite'
+            });
+        });
+    </script>
+    <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+</body>
+</html>
