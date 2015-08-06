@@ -13,6 +13,5 @@
 
 Чтобы WebView содержал заголовок "HTTP Referer",  необходимо использовать метод <a href="http://developer.android.com/reference/android/webkit/WebView.html#loadDataWithBaseURL(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String" target=_blank>loadDataWithBaseURL</a>.
 
-Не забудьте добавить разрешение на использование интернета в разрешения своего приложения.
-
+Не забудьте добавить разрешение на использование интернета в разрешения своего приложения:
 <pre>< uses-permission android:name="android.permission.INTERNET" /></pre>
