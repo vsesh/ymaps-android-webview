@@ -16,4 +16,7 @@
 Не забудьте добавить разрешение на использование интернета в <a href="https://github.com/vsesh/ymaps-android-webview/blob/master/project/app/src/main/AndroidManifest.xml">разрешениях</a> своего приложения:
 <pre>&#60;uses-permission android:name="android.permission.INTERNET" /&#62;</pre>
 
-<a href="https://github.com/vsesh/ymaps-android-webview/blob/master/project/app/src/main/assets/index.html">Страница, которая открывается во WebView</a>
+Ключевые моменты:
+* <a href="https://github.com/vsesh/ymaps-android-webview/blob/master/project/app/src/main/java/me/vsesh/ymaps_android_webview/ymaps_android_webview/MainActivity.java#L34">WebView</a>
+* <a href="https://github.com/vsesh/ymaps-android-webview/blob/master/project/app/src/main/assets/index.html">Страница, которая открывается во WebView</a>
+* <a href="https://github.com/vsesh/ymaps-android-webview/blob/master/project/app/src/main/AndroidManifest.xml">Разрешения приложения</a>
