@@ -9,10 +9,16 @@
         var myMap;
         ymaps.ready(function () {
             myMap = new ymaps.Map('map', {
-                center: [55.755381, 37.619044],
-                zoom: 14,
-                type: 'yandex#satellite'
+                center: [55.73933933, 37.60681734],
+                zoom: 16
             });
+
+            var placemark = new ymaps.Placemark(myMap.getCenter(), {
+                balloonContent: 'Наше дрейфующее положение'
+            }, {
+                iconColor: 'red'
+            });
+            myMap.geoObjects.add(placemark);
         });
     </script>
     <style>
